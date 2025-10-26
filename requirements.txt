@@ -1,51 +1,57 @@
-# Core Web Frameworks
+# Core framework
 fastapi
 uvicorn
-streamlit
 
-# HTTP and Parsing
-requests
-beautifulsoup4
-
-# Environment and File Management
+# Environment variables
 python-dotenv
-pathlib
 
-# Async Utilities
+# HTTP requests
+requests
+
+# Async utilities
 aiolimiter
 asyncio
 
-# Data Models and Validation
+# Data modeling
 pydantic
 
-# Date and Time Utilities
-datetime
+# Web scraping
+beautifulsoup4
+lxml
 
-# AI / LLM Integrations
+# Text-to-Speech
+gTTS
+elevenlabs==1.4.0
+
+# LangChain + Google Generative AI
 langchain
 langchain-core
 langchain-community
-langchain-anthropic
+langchain-google-genai
 langgraph
-langchain-mcp-adapters
-huggingface-hub
-ollama
-
-# MCP (Model Context Protocol)
 mcp
+langchain-mcp-adapters
 
-# Audio / TTS
-elevenlabs
+# Audio & File handling
+pathlib
+pydub
 
-# Custom Utils Dependencies (if your utils.py needs these)
-aiofiles
-
-# Optional: if you're using Anthropic and Hugging Face APIs
-anthropic
+# ML / AI (if you use embeddings, summarization, etc.)
+torch
 transformers
 
-# Optional: if you're using Reddit scraping
+# Misc utilities
+datetime
+urllib3
+
+# For Reddit API
 praw
 
-# Optional: for serving or saving files
-aiohttp
+# Streamlit (frontend)
+streamlit
+
+# Optional (if you use scraping or parsing HTML pages)
+bs4
+
+# To ensure compatibility
+typing-extensions
