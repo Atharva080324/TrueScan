@@ -1,0 +1,51 @@
+# Core Web Frameworks
+fastapi
+uvicorn
+streamlit
+
+# HTTP and Parsing
+requests
+beautifulsoup4
+
+# Environment and File Management
+python-dotenv
+pathlib
+
+# Async Utilities
+aiolimiter
+asyncio
+
+# Data Models and Validation
+pydantic
+
+# Date and Time Utilities
+datetime
+
+# AI / LLM Integrations
+langchain
+langchain-core
+langchain-community
+langchain-anthropic
+langgraph
+langchain-mcp-adapters
+huggingface-hub
+ollama
+
+# MCP (Model Context Protocol)
+mcp
+
+# Audio / TTS
+elevenlabs
+
+# Custom Utils Dependencies (if your utils.py needs these)
+aiofiles
+
+# Optional: if you're using Anthropic and Hugging Face APIs
+anthropic
+transformers
+
+# Optional: if you're using Reddit scraping
+praw
+
+# Optional: for serving or saving files
+aiohttp
