@@ -1,29 +1,21 @@
-# Core framework
+# --- Core Backend ---
 fastapi
 uvicorn
-
-# Environment variables
 python-dotenv
-
-# HTTP requests
 requests
-
-# Async utilities
-aiolimiter
-asyncio
-
-# Data modeling
 pydantic
+aiolimiter
 
-# Web scraping
+# --- Scraping ---
 beautifulsoup4
 lxml
 
-# Text-to-Speech
+# --- Text-to-Speech ---
 gTTS
 elevenlabs==1.4.0
+pydub
 
-# LangChain + Google Generative AI
+# --- LangChain + Google GenAI ---
 langchain
 langchain-core
 langchain-community
@@ -32,26 +24,16 @@ langgraph
 mcp
 langchain-mcp-adapters
 
-# Audio & File handling
-pathlib
-pydub
-
-# ML / AI (if you use embeddings, summarization, etc.)
-torch
+# --- ML Models ---
 transformers
+torch
+sentencepiece
 
-# Misc utilities
-datetime
-urllib3
-
-# For Reddit API
+# --- Reddit API ---
 praw
 
-# Streamlit (frontend)
+# --- Frontend ---
 streamlit
 
-# Optional (if you use scraping or parsing HTML pages)
-bs4
-
-# To ensure compatibility
+# --- Utilities ---
 typing-extensions
